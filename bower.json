@@ -1,0 +1,22 @@
+{
+  "name": "monitorCard",
+  "version": "0.0.0",
+  "homepage": "https://github.com/PhoenixGrey/monitorCard",
+  "description": "card based style ui lib for monitor pages",
+  "main": "mccore.min.css",
+  "keywords": [
+    "card",
+    "monitor"
+  ],
+  "authors": [
+    "phoenix"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
