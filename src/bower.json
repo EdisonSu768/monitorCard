@@ -1,0 +1,37 @@
+{
+  "name": "mc_demo",
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.1",
+    "bootstrap": "3.2.0",
+    "angular": "1.2.23",
+    "morrisjs": "0.5.1",
+    "raphael": "2.1.2",
+    "fontawesome": "4.3.0",
+    "ionicons": "1.5.2",
+    "checklist-model": "0.1.3",
+    "highcharts-ng": "0.0.7",
+    "underscore": "1.7.0",
+    "angular-bootstrap": "0.11.2",
+    "ng-file-upload": "1.6.12",
+    "alertify.js": "0.3.11",
+    "angular-md5": "0.1.7",
+    "store.js": "1.3.16",
+    "moment": "2.9.0",
+    "eonasdan-bootstrap-datetimepicker": "4.7.14",
+    "bootstrap-daterangepicker": "1.3.19",
+    "angular-cookies": "1.3.13"
+  },
+  "resolutions": {
+    "jquery": "2.1.1",
+    "bootstrap": "3.2.0",
+    "angular": "1.2.23",
+    "moment": "2.9.0"
+  }
+}

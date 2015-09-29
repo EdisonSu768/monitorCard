@@ -1,0 +1,121 @@
+.calendar{
+  max-width: 340px !important;
+}
+.reportrange{
+  background: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.reportrange > span {
+  padding: 5px;
+}
+.reportrange li {
+  list-style: none;
+}
+
+.reportrange li a{
+  color:#333;
+  text-decoration: none;
+}
+.group-right{
+  margin-left: 10px;
+}
+.logCenter{
+  padding: 10px;
+  border-top: 1px solid #eee;
+}
+.logCenter > form {
+  margin-bottom: 40px;
+}
+.nav-tabs-custom{
+  border-radius: 3px;
+}
+.dropdown-menu-log-type{
+  margin: 5px -11 0;
+  min-width: 0px;
+}
+.dropdown-menu-log-type li a:hover{
+  background: #08c ;
+  color:#fff
+}
+.dropdown-menu-log-type li{
+	margin:5px 0px;
+}
+.input-group > input{
+  width: 300px !important;
+  border-radius: 0px 3px 3px 0px!important;
+}
+.activeType > a {
+  background: #08c !important;
+  color:#fff !important;
+}
+.safeLogDescHeader > div{
+  width: 60px;
+}
+.safeLogHeader{
+  padding: 8px 5px 10px 5px;
+  margin: 0px;
+}
+.historySearchMenu{
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
+  float: left;
+  min-width: 300px;
+  padding: 5px 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.historySearchMenu li {
+  padding: 8px 10px;
+}
+
+.historySearchMenu li a{
+  text-decoration: none;
+}
+.historySearchMenu li div{
+  width: 90%;
+}
+.historySearchMenu li div:hover{
+  color:#009fe4;
+  cursor: pointer;
+}
+.historySearchMenu li i{
+  margin-top: -18px;
+  cursor: pointer;
+}
+
+.historySearchMenu li:hover >a {
+  color:#fff
+}
+.showHistorySearch{
+  display: block;
+}
+
+.search_div{
+  padding: 4px 10px !important;
+  border-radius: 3px 0px 0px 3px!important;
+}
+
+.input-group-addon, .form-control{
+  border-color: #ddd;
+}
+.safeLogTableSpan{
+  float: left;
+  position: relative;
+  width: 93%;
+  overflow-wrap: break-word;
+  white-space: normal;
+}

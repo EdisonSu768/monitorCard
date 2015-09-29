@@ -1,0 +1,383 @@
+.upload_btn{
+    float: right;
+}
+
+input[type='file']{
+    position: absolute;
+    top: 70px;
+    width: 60px;
+    height: 35px;
+    font-size: 100px;
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor:pointer;
+}
+
+.td_md_2{
+    width: 20%;
+}
+.plugin_upload{
+    top :0 !important;
+}
+
+.form-control{
+    border: 1px solid #eaeaea !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+    height: 35px !important;
+    font-size: 12px;
+}
+
+.dialog-title-plugin{
+    font-size: 14px;
+    font-weight: 800;
+}
+.help-inline span {
+  color: #f56954!important;
+}
+.plugin_detail_col_1{
+    min-height: 1px;
+    width: 3%;
+    float: left;
+}
+.historyList{
+    font-size: 13px !important;
+    line-height: 24px;
+    color: #666;
+    width: 100%;
+}
+
+.font-opacity[disabled] {
+  opacity: 0.7;
+}
+
+.textarea-size {
+  width:100% !important;
+  height:50px!important;
+}
+
+.deleteHistory:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+.softDiv{
+  padding: 50px 10px;
+  height: 530px;
+}
+.software-button .fa{
+  margin-right: 5px; 
+}
+.softDiv a i{
+  margin-left:8px;
+}
+.softDiv .border-dashed-bottom{
+  margin-bottom: 30px;
+}
+.progressDiv{
+  height: 23px;
+  margin-top: 3px;
+}
+
+.col-md-3 .btn-small{
+  margin-top: -8px;
+  margin-left: 25px;
+}
+
+.col-md-3 > .pull-right > input{
+  margin: 0 auto;
+  vertical-align: middle;
+  display:inline-block
+}
+
+.col-md-3 > .pull-right > span{
+  margin-left: 5px;
+}
+.downloading{
+  color: #009fe4;
+}
+.upgrading{
+  color: #33cc64;
+}
+.upgrading i{
+  width: 18px;
+  color: #fff !important;
+  background: #33cc64 !important;
+  padding: 3px;
+  font-size: 12px !important;
+  border-radius: 100%;
+}
+.row > .col-md-4{
+  margin-bottom: 15px;
+}
+.navbar-nav .open .help-drop{
+  margin-top:10px !important;
+  margin-right:-23px !important;
+}
+@media (max-height: 767px) {
+  .navbar-nav .open .dropdown-menu {
+    position: absolute;
+  }
+}
+
+@media (max-width: 467px) {
+  .navbar-nav .open .dropdown-menu {
+    margin-right: 122px !important;
+  }
+  .soft-title{
+    width: 100% !important;
+  }
+  .progressDiv{
+    width: 70% !important;
+    margin: 10px 0 5px 0;
+  }
+  .col-md-3 .btn-small {
+    margin-right: 15px;
+  }
+  .navbar-nav > .notifications-menu > .dropdown-menu > li.header:after, .navbar-nav > .messages-menu > .dropdown-menu > li.header:after, .navbar-nav > .tasks-menu > .dropdown-menu > li.header:after{
+    margin-left: -41px;
+  }
+}
+
+@media (max-width: 991px) {
+  .col-md-3 .btn-small {
+    margin-left: 10px !important; 
+  }
+}
+
+.navbar-nav > .notifications-menu > .help-drop > li.header:after{
+  margin-left: -13px;
+}
+
+.toggle-bg {
+  margin-top:5px;
+  background: white;
+  border-radius: 2em;
+  border: 0.12em solid #e6e6e6;
+  display: block;
+  /* ...So that we can set a height and width */
+  float: left;
+  /* ...So that it doesn't take up the full width of the page */
+  height: 1.7em;
+  /* You can change this later if you want */
+  position: relative;
+  /* Required to allow the switch to move around */
+  width: 7em;
+  /* This can be changed later as well */
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  position: relative;
+  margin-top: -2px;
+}
+.toggle-bg:hover {
+  border-color: #d9d9d9;
+}
+.toggle-bg.on {
+  background: #00dc61;
+  border-color: #00c356;
+  color: #fff;
+}
+.toggle-bg input {
+  margin: 0;
+  padding: 0;
+  width: 7em;
+  height: 100%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  z-index: 2;
+  /* We want the input to be over the span.switch, which we'll give a z-index of 1 */
+  /*IE*/
+  zoom: 1;
+  filter: alpha(opacity=0);
+  /* initial toggle position */
+  /* final relative toggle position */
+}
+.toggle-bg input:checked ~ .switch {
+  left: 0;
+}
+.toggle-bg input ~ :checked ~ .switch {
+  left: 5.3em;
+}
+.toggle-bg input:checked {
+  z-index: 0;
+}
+.switch {
+  background: white;
+  border-radius: 2em;
+  border: 0.1em solid #d9d9d9;
+  display: block;
+  float: left;
+  height: 1.48em;
+  width: 1.48em;
+  left: -.1em;
+  top:.05em;
+  position: relative;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  z-index: 1;
+  /* Remember, it must be below the invisible inputs */
+}
+.switch.on {
+  box-shadow: -0.2em 0.2em 0.5em rgba(0, 0, 0, 0.06), 0.4em 0.4em 1.5em rgba(0, 0, 0, 0.08);
+}
+.switch.off {
+  box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.06), -0.4em 0.4em 1.5em rgba(0, 0, 0, 0.08);
+}
+.statusInfo{
+  display: block;
+  padding: 0px 12px 0px 12px;
+  float: left;
+  margin-bottom: 0px !important;
+  margin-top: 5px;
+}
+.manualUpgrade{
+  margin-left: 5px;
+  opacity: 0.65;
+}
+.autoUpgrade{
+  margin-left: -7px;
+}
+.softwareHelp > i{
+  margin-right: 8px;
+  color: #b4b4b4;
+  font-size: 16px;
+}
+.row > .col-md-4 > .box{
+  height: 530px;
+}
+.software-patch > span > span{
+  padding-bottom: 5px;
+}
+.software-info > .col-md-4, .software-morelink > .col-md-4, .software-button > .col-md-4{
+  text-align: right;
+  font-weight: 700;
+  min-width: 105px;
+  max-width: 110px;
+}
+.software-info > .col-md-8{
+  border: 1px solid #d9dfe4;
+  display: inline-block;
+  background-color: #f5faf8;
+  color: #66757e;
+  border-radius: 3px;
+}
+.software-info > .col-md-8 > span{
+  display: block;
+}
+.software-info{
+  margin-bottom: 20px;
+}
+.software-button > .btn{
+  background-color: #fff;
+  border-color: #ccc;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.software-button > .btn-primary{
+  background-color: #009fe4;
+  border-color: #0097d8;
+  color: #fff;
+}
+.software-info > div{
+  padding: 5px 10px;
+}
+.software-title{
+  padding: 10px 20px;
+  border-bottom: 1px solid #d9dfe4;
+}
+.software-title > span{
+  opacity: 0.65;
+  padding-left: 10px;
+}
+.software-title > b{
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.software-morelink > .col-md-8{
+  text-align: center;
+}
+.modal-body > p{
+  opacity: 0.65;
+  margin-top: 5px;
+}
+.no-opacity{
+  opacity: 1 !important;
+}
+.delete-btn:hover {
+  background-color: #f4f4f4;
+}
+.wordWrap{
+  word-wrap: break-word;
+}
+.softDiv > .col-md-12{
+  padding-left: 0;
+  padding-right: 0;
+}
+.col-md-8.btn-primary > span > span > span{
+  display: block;
+  overflow: hidden;
+}
+@media (max-width: 1465px) and (min-width: 767px){
+  .software-title{
+    height: 69px;
+  }
+  .software-title > span{
+    display: block;
+    padding-left: 0;
+  }
+}
+@media (max-width: 1465px) and (min-width: 1400px){
+  .software-info > .col-md-8, .software-morelink > .col-md-8, .software-button > .col-md-8{
+    width: 200px;
+  }
+}
+@media (max-width: 1400px) and (min-width: 1250px){
+  .software-info > .col-md-8, .software-morelink > .col-md-8, .software-button > .col-md-8{
+    width: 180px;
+  }
+}
+@media (max-width: 1250px) and (min-width: 767px){
+  .software-info > .col-md-4, .software-morelink > .col-md-4, .software-button > .col-md-4{
+    text-align: left;
+  }
+  .software-info > .col-md-8, .software-morelink > .col-md-8, .software-button > .col-md-8{
+    width: 100%;
+  }
+  .softDiv{
+    padding-top: 20px;
+  }
+  .softDiv .col-md-4{
+    padding-left: 0;
+  }
+  .software-button > .btn{
+    margin-top: 20px;
+  }
+  .row > .col-md-4{
+    padding: 5px;
+  }
+}
+@media (max-width: 1120px) {
+  .software-title{
+    padding: 9px;
+  }
+}
+@media (max-width: 767px) and (min-width: 550px){
+  .software-info > .col-md-4, .software-morelink > .col-md-4, .software-button > .col-md-4{
+    max-width: 140px;
+  }
+}
+@media (max-width: 550px){
+  .software-info > .col-md-4, .software-morelink > .col-md-4, .software-button > .col-md-4{
+    width: 105px;
+  }
+}

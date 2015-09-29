@@ -1,0 +1,26 @@
+.groupManager{
+    left: 130px !important;
+    top: 12px !important;
+}
+
+
+.invalid-nav-tabs:after{
+	background-color: #FFFFFF !important;
+}
+
+#hove{
+    cursor: pointer;
+}
+
+.group_btn {
+  margin-left: 15px !important;
+}
+
+.btn{
+  border-radius: 3px !important;
+}
+
+.pbe_terminal_tr{
+  padding-right: 90px !important;
+  overflow: visible;
+}

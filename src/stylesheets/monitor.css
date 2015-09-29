@@ -1,0 +1,267 @@
+.squareHalfHealth {
+	width: 15px;
+	height: 15px;
+	background: #7cb5ec;
+  float: left;
+  margin-top: 2px;
+}
+.chart-label{
+  margin-left: 6px;
+}
+.squareUnHealth {
+	width: 15px;
+	height: 15px;
+	background: #ff7f6c;
+  float: left;
+  margin-top: 2px;
+}
+.squareHealth {
+	width: 15px;
+	height: 15px;
+	background: #9bd99d;
+  float: left;
+  margin-top: 2px;
+}
+
+.hipsLine {
+	display: inline-block;
+	width: 15px;
+	height: 5px;
+	background: #90ed7d;
+}
+.vulLine {
+	display: inline-block;
+	width: 15px;
+	height: 5px;
+	background: #7cb5ec;
+}
+.virusLine {
+	display: inline-block;
+	width: 15px;
+	height: 5px;
+	background: #ff8980;
+}
+
+i.fa.fa-repeat.box-refresh:hover {
+	color: black ;
+}
+
+.box-title-description:hover {
+	cursor: pointer;
+}
+.box-body-description{
+	font-size: 14px !important;
+}
+.fa-chevron-down:hover {
+	cursor: pointer;
+}
+
+.box-title-vul {
+	color: #7cb5ec;
+}
+.box-title-virus {
+	color: #ff6c60;
+}
+.box-title-hips {
+	color: #82d671;
+}
+
+.linecharts-title {
+	color: #333333;
+	font-size: 18px;
+	fill: #333333;
+	width: 831px;
+}
+
+.linecharts-subtitle {
+	color: #555555;
+	fill: #555555;
+	width: 831px;
+}
+
+.box .box-body {
+	padding: 2px 0px 0px 0px;
+}
+
+.box .box-header {
+	border-bottom: 0;
+}
+
+.box .box-header > .box-title > i{
+  cursor: pointer;
+}
+.col-list {
+	padding-left: 32px;
+}
+
+.col-list-line {
+	border-bottom: 1px solid #f5f5f5
+}
+
+ .y-title {
+	 color: #555555;
+ }
+
+.groupManager{
+	left: 80px !important;
+	top: 12px !important;
+}
+
+.text-list-font-overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 14px;
+	color: #454545;
+}
+.safe_desc{
+	font-size: 14px !important;
+	color:#333;
+}
+.safe_desc span a {
+  color: #333;
+  text-decoration:none;
+}
+.safe_desc span a:hover {
+  color: #3c8dbc;
+}
+
+.safe_client_name{
+	font-size: 14px !important;
+	color:#666 !important;
+	text-align: left;
+}
+.safe_time{
+	font-size: 12px !important;
+	color:#666 !important;
+	text-align: right;
+}
+.safe_more{
+	padding-top:10px;
+	margin-left: 8px;
+	padding-bottom: 5px;
+}
+.safe_more a{
+	text-decoration: none !important;
+}
+.safe_more a i{
+	margin-left: 5px;
+}
+.safe_table{
+	padding: 10px !important;
+}
+.safe_vul{
+	background: rgba(124,181,236,0.1);
+}
+.safe_virus{
+	background: rgba(255,108,96,0.1);
+}
+.safe_hips{
+	background: rgba(130,214,113,0.1);
+}
+.safe_table > tbody > tr > td{
+	height: 44px !important;
+	border: none !important;
+	vertical-align: middle;
+}
+.safe_table{
+	border-collapse:separate;
+	border-spacing:0 2px;
+}
+.load_more_div{
+  cursor: pointer;
+  background: #f3f3f3;
+  text-align: center;
+  height: 30px;
+}
+.load_more_div a{
+  line-height: 2;
+  text-decoration: none;
+  color: #777;
+}
+.notPass{
+	color:#ff6c60;
+	font-weight:bold;
+}
+.form-group-desc{
+  margin-left: 22px;
+}
+
+.description > .dropdown-menu{
+	width: 230px;
+	height: 160px;
+}
+
+@media screen and (min-width: 1600px) {
+	.notifications-menu.description > a > i {
+		padding-top: 11px;
+	}
+}
+
+@media screen and (max-width: 1600px) {
+	.notifications-menu.description > a > i {
+		padding-top: 12px;
+	}
+}
+.notifications-menu.description > .dropdown-menu{
+	left: -25px;
+}
+
+.circle{
+	float: left;
+	margin-right: 10px;
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+	-webkit-border-radius: 100px;
+}
+.circle-health{
+	border: 4px #9bd99d solid;
+}
+.circle-half-health{
+	border: 4px #7cb5ec solid;
+}
+.circle-un-health{
+	border: 4px #ff7f6c solid;
+}
+
+.description  ul.menu{
+	padding-left: 20px;
+}
+
+.description  ul.menu li {
+	padding: 10px 0px;
+}
+.description  ul.menu li span {
+	display: block;
+	padding-top: 5px;
+}
+
+.health-status{
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.health-status .nav-tabs{
+	border-bottom: none;
+}
+
+.nav-tabs-custom > .pull-left > .header{
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+@media screen and (max-width: 467px){
+	.nav-tabs-custom > .nav>li>a {
+	  padding: 10px 7px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.min-box dd, .box-group-title, .box-body{
+	  margin-left: 0 !important;
+	}
+	.box-header > h4{
+		padding-left: 0 !important;
+	}
+}

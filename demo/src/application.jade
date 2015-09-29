@@ -1,0 +1,310 @@
+html
+  head
+    title= title
+    include appCssLink
+    meta(content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no", name="viewport", charset="utf-8")
+  body.skin-blue
+    img.hide(src='/images/logo.png', style="width:0px;height:0px;")
+    header.header.main-header
+      a.logo(href="/")
+        img(style='margin-left: auto; margin-right: auto;')
+      nav.navbar.navbar-static-top(role="navigation")
+        a.navbar-btn.sidebar-toggle(href="#",data-toggle="offcanvas",role="button")
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        div.navbar-right
+          ul.nav.navbar-nav
+            li.dropdown.notifications-menu.serverStateDropDown
+              a.dropdown-toggle.change-height(href="#")
+                i.fa.fa-database
+                span#serviceDownTotal.label.label-danger
+              ul.dropdown-menu.serverState(style="width:320px;")
+                li.header 服务状态
+                li
+                  ul.menu
+                    li#bulter_web.menu-message
+                      a.taskstyle(style="padding:5px;")
+                        i.glyphicon
+                          i.fa.imgAlign
+                        span Web
+                          small.pull-right
+                    li#bulter_redis.menu-message
+                      a(style="padding:5px;")
+                        i.glyphicon
+                          i.fa.imgAlign
+                        span Redis
+                          small.pull-right
+                    li#bulter_redisCache.menu-message
+                      a(style="padding:5px;")
+                        i.glyphicon
+                          i.fa.imgAlign
+                        span Cache
+                          small.pull-right
+                    li#bulter_privatecloud.menu-message
+                      a(style="padding:5px;")
+                        i.glyphicon
+                          i.fa.imgAlign
+                        span Private Cloud
+                          small.pull-right
+                      .cloudIcon#accordionCloud
+                        .no-shadow
+                          .panel-heading
+                            h4.panel-title
+                              div(style="height:5px;")
+                              a.accordion-toggle.collapsed(data-toggle='collapse' data-parent='#accordionCloud' href='#cloudVersionDiv' style="padding-right:20px;text-decoration:none!important")
+                      .row.panel-collapse.collapse(style="margin:1px")#cloudVersionDiv
+                        div.floatLeft(style="width:280px")
+                          .floatLeft.floatname 病毒库版本
+                          .floatLeft(style="margin:10px")
+                            .privateColdVersion.virusVer#virusVersion
+                        div.floatLeft(style="width:280px")
+                          .floatLeft.floatname 主防版本
+                          .floatLeft(style="margin:10px")
+                            .privateColdVersion.hipsVer#hipsVersion
+                        div.floatLeft(style="width:280px")
+                          .floatLeft.floatname 补丁库版本
+                          div.floatLeft
+                            div(style="margin:10px")
+                              .privateColdVersion.patchVer#patchVersion0
+                            div(style="margin:10px")
+                              .privateColdVersion.patchVer#patchVersion1
+                            div(style="margin:10px")
+                              .privateColdVersion.patchVer#patchVersionS
+                        .row(style="margin:5px")
+                    li#bulter_elasticsearch.menu-message
+                      a(style="padding:5px;")
+                        i.glyphicon
+                          i.fa.imgAlign
+                        span Elasticsearch
+                          small.pull-right
+                li.footer
+                  .version
+                    .server
+                      | 控制中心版本:&nbsp&nbsp
+                      span#server
+                    .client
+                      | 终端版本:&nbsp&nbsp
+                      span#client
+            li.quicklinks
+              i.h-seperate
+            li.dropdown.notifications-menu
+              a.dropdown-toggle.change-height(href="#", data-toggle="dropdown")
+                i.fa.fa-tasks
+                span#taskTotal.label.label-warning
+              ul.dropdown-menu.taskManage
+                li.header 任务管理器
+                li
+                  ul.menu
+                    li#menu-message-task
+                      a.taskstyle.barA
+                        i.glyphicon.glyphicon-dashboard.info.floatLeft
+                        span.floatLeft
+                          small.topBar_small
+                        span.floatLeft 体检
+                          small#sacnCount.topBar_small_chrono
+                    li#menu-message-laptop
+                      a.barA
+                        i.fa.fa-laptop.laptop.floatLeft
+                        span.floatLeft
+                          small.topBar_small
+                        span.floatLeft 升级
+                          small#clientUpgradeCount.topBar_small_chrono
+                    li#menu-message-uninstall
+                      a.barA
+                        i.glyphicon.glyphicon-remove-circle.floatLeft
+                        span.floatLeft
+                          small.topBar_small
+                        span.floatLeft 卸载
+                          small#uninstallCount.topBar_small_chrono
+                li.footer
+                  a(href="#")
+            li.quicklinks
+              i.h-seperate
+            li.dropdown.notifications-menu
+              a.dropdown-toggle.change-height(href="#", data-toggle="dropdown")
+                img(src="../../images/navigation/vul.png",style="width: 16px;opacity: 0.8;font-size: 12px;font-weight: bold;")
+                span#vulBar.label.label-info
+              ul.dropdown-menu.vuldrop
+                li.header 漏洞
+                li#vuldrop
+                  ul.menu
+                    li#menu-message-flash
+                      a.taskstyle.barA
+                        i.fa.fa-flash.vul-flash.floatLeft
+                        span.floatLeft
+                          small.topBar_small
+                        span.floatLeft 危险数
+                          small#vulCount.topBar_small
+                    li#menu-message-destop
+                      a.barA
+                        i.fa.fa-desktop.vul-destop.floatLeft
+                        span.floatLeft
+                          small.topBar_small
+                        span.floatLeft 被感染终端数
+                          small#vulClientCount.topBar_small_sm
+
+                li.footer
+                  a(href="#")
+            li.dropdown.notifications-menu
+              a.dropdown-toggle.change-height(href="#", data-toggle="dropdown")
+                img(src="../../images/navigation/virus.png",style="width: 16px;opacity: 0.8;font-size: 12px;font-weight: bold;")
+                span#virusBar.label.label-danger
+              ul.dropdown-menu.virusdrop
+                li.header 病毒木马
+                li#virusdrop
+                  ul.menu
+                    li#menu-virus-flash
+                      a.taskstyle.barA
+                        i.fa.fa-flash.virus-flash.floatLeft
+                        span.floatLeft
+                          small.topBar_small
+                        span.floatLeft 危险数
+                          small#virusCount.topBar_small
+                    li#menu-virus-destop
+                      a.barA
+                        i.fa.fa-desktop.virus-destop.floatLeft
+                        span.floatLeft
+                          small.topBar_small
+                        span.floatLeft 被感染终端数
+                          small#virusClientCount.topBar_small_sm
+                li.footer
+                  a(href="#")
+            li.dropdown.notifications-menu
+              a.dropdown-toggle.change-height(href="#", data-toggle="dropdown")
+                img(src="../../images/navigation/hips.png",style="width: 15px;opacity: 0.8;font-size: 12px;font-weight: bold;")
+                span#hipsBar.label.label-success
+              ul.dropdown-menu.hipsdrop
+                li.header 查防异常
+                li#hipdrop
+                  ul.menu
+                    li#menu-hips-flash
+                      a.taskstyle.barA
+                        i.fa.fa-flash.hips-flash.floatLeft
+                        span.floatLeft
+                          small.topBar_small
+                        span.floatLeft 危险数
+                          small#hipsCount.topBar_small
+                    li#menu-hips-destop
+                      a.barA
+                        i.fa.fa-desktop.hips-destop.floatLeft
+                        span.floatLeft
+                          small.topBar_small
+                        span.floatLeft 被感染终端数
+                          small#hipsClientCount.topBar_small_sm
+                li.footer
+                  a(href="#")
+
+            li.quicklinks
+              i.h-seperate
+            li.user_a_notUse.user.user-menu
+              a
+                i.glyphicon.glyphicon-user
+                span 
+            li.user
+              a.dropdown-toggle(href="/logout")
+                i.glyphicon.glyphicon-log-out
+                span 退出
+  div.wrapper.row-offcanvas.row-offcanvas-left
+    aside.left-side.sidebar-offcanvas
+      section.sidebar
+        .user-panel
+          .pull-left.info
+            p 你好,
+        div.linedk
+        ul.sidebar-menu
+          li
+            a(href="/")
+              i.fa.fa-home
+              span 首页
+          li#client-manage
+            a(href="#pbe-terminal")
+              i.fa.fa-laptop
+              span 终端管理
+              i.fa.fa-angle-down
+          ul.no-padding#pbe-terminal
+            li
+              a(href="/securitymonitor")
+                i.fa.fa-circle-thin.fa-1
+                span 安全监控
+            li
+              a(href="/terminalupgrademanager")
+                i.fa.fa-circle-thin.fa-1
+                span 终端升级
+            li
+              a(href="/bootSpeed")
+                i.fa.fa-circle-thin.fa-1
+                span 开机加速
+            li
+              a(href="/hardwareInfo")
+                i.fa.fa-circle-thin.fa-1
+                span 硬件资产
+          li
+            a(href="/softwaremanager")
+              i.fa.fa-archive
+              span 软件管理
+              small#showUpdate.fa.fa-arrow-circle-up.pull-right.hide
+          li
+            a(href="/logcenter")
+              i.fa.fa-bar-chart-o
+              span 统计报表
+          li
+            a(href="/safeLogs")
+              i.fa.fa-lock
+              span 安全日志
+          li
+            a(href="/serviceLogs")
+              i.fa.fa-database
+              span 服务日志
+          li.linedk
+          li
+            a(href="/currenttask")
+              i.fa.fa-tasks
+              span 当前任务
+              small#currentTaskCount.badge.pull-right.bg-yellow
+          li
+            a(href="/historytask")
+              i.fa.fa-outdent
+              span 历史任务
+          li.linedk
+          li
+          li
+            a(href="/groupmanager")
+              i.fa.fa-users
+              span 分组管理
+          li
+            a(href="/chronoexam")
+              i.fa.fa-clock-o
+              span 定时体检
+          div.linedk
+          li#config-center
+            a(href="#config-list")
+              i.fa.fa-cog
+              span 设置中心
+              i.fa.fa-angle-down
+          ul.no-padding#config-list
+            li
+              a(href="/serverConfig")
+                i.fa.fa-circle-thin.fa-1
+                span 控制中心相关设置
+            li
+              a(href="/clientConfig")
+                i.fa.fa-circle-thin.fa-1
+                span 终端相关设置
+          div.linedk
+          li
+            a(href="/client/install",target="_blank")
+              i.fa.fa-download
+              span 下载终端
+    != body
+
+      footer.site-footer
+        p
+          span Copyright © 2015 启明星辰
+          span  |
+          span#cloudTrustLink
+            a(href="") 云子可信官网
+          span  |
+          span  版本：
+          span#footer-server

@@ -1,0 +1,58 @@
+.body{
+  height: 420px;
+  text-align: center;
+  box-shadow: 0px 2px 3px 0px rgba(194,194,194,0.5);
+  background: #f9f9f9 !important;
+}
+
+.logoCenterText{
+	color: #017fe5;
+}
+
+.logoCenterText p{
+	font-size: 18px;	
+}
+
+.logoCenterText > span{
+	font-size: 14px;
+} 
+
+.progerss > span{
+	font-size: 14px;
+	margin-right: 2px; 
+}
+
+.progerss > i{
+	font-size: 12px;
+}
+
+.progerss{
+	color: #333;
+	margin-top: 20%;
+}
+
+.restart-modal{
+	width: auto !important;
+	height: auto !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	background: #fff !important;
+	display: inline-block !important;
+}
+
+.restart-modal > .modal-dialog{
+	width: 100% !important;
+}
+
+.logoCenter{
+  margin-top: 20%;
+  margin-bottom: 10%;
+  width: 79px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-box {
+  margin: 8% auto 0 auto;
+}
+
