@@ -14,7 +14,7 @@ module.exports = (grunt)->
           create: ["build"]
     shell:
       installBowerPackages:
-        command: 'cd src; bower install'
+        command: 'cd src; ../node_modules/bower/bin/bower install'
 
   grunt.loadNpmTasks 'grunt-mkdir'
   grunt.loadNpmTasks 'grunt-contrib-copy'
