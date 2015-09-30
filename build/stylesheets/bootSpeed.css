@@ -1,0 +1,50 @@
+.invalid-nav-tabs:after{
+  background-color: #FFFFFF !important;
+}
+#hove{
+  cursor: pointer;
+}
+.btn{
+  border-radius: 3px !important;
+}
+.pbe_terminal_tr{
+  padding-right: 90px !important;
+  overflow: visible;
+}
+.dialog-header-notify {
+  padding: 15px 15px 10px 15px;
+}
+.clientTitle{
+  border-radius: 3px;
+  border: 1px solid #dfe5e8;
+  background: #eceff1;
+  padding: 0 10px 1px 5px;
+  margin-left: 5px;
+}
+.clientTitle > span{
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+}
+.clientTitle > img{
+  margin-bottom: 1px;
+}
+
+.num{
+  padding-left: 5% !important;
+}
+@media (max-width: 1600px) {
+  .num{
+    padding-left: 6% !important;
+  }
+}
+@media (max-width: 1300px) {
+  .num{
+    padding-left: 8% !important;
+  }
+}
+@media (max-width: 1100px) {
+  .num{
+    padding-left: 9% !important;
+  }
+}

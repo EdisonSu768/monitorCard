@@ -1,0 +1,62 @@
+
+.button-delete{
+    margin-left:10px;
+}
+
+.form-style{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.help-inline span{
+  color:#f56954;
+}
+.help-inline .hint{
+  color: #9a9a9a;
+}
+.inputHasError{
+    border-color: #f56954 !important;
+}
+
+.dialog-title-account{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.form-control{
+    border: 1px solid #ddd !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+    height: 35px !important;
+    font-size: 12px;
+}
+
+/* input placeholder */
+::-webkit-input-placeholder {
+    color: #bbb !important;
+}
+
+::-moz-placeholder{
+    color: #bbb !important;
+}
+
+:-moz-placeholder{
+    color: #bbb !important;
+}
+
+:-ms-input-placeholder{
+    color: #bbb !important;
+}
+
+.has_error{
+	border-color: #f56954 !important;
+	box-shadow: none;
+}
+.margin-left {
+  margin-left: 3px;
+}
+.help-inline{
+  height: 16px;
+}
+.group_btn{
+  margin-left: 15px !important;
+}

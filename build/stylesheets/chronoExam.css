@@ -1,0 +1,306 @@
+.groupManager{
+    background-color: transparent;
+    padding: inherit;
+    margin-bottom: 0px;
+}
+
+.groupManager > li+li:before{
+    content: '>\00a0';
+}
+.input-examTime{
+    width: 90px;
+    height: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding-left: 6px;
+}
+.icon-chevron-up{
+    background-position: -288px -120px !important;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../images/glyphicons-halflings.png");
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+}
+
+.icon-chevron-down{
+    background-position: -313px -119px !important;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../images/glyphicons-halflings.png");
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+}
+input[type="text"]{
+    border: 1px solid #ccc;
+    height: 30px;
+    width: 35px !important;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+select{
+    display: inline-block;
+    height: 27px;
+    line-height: 28px;
+    border: 1px solid #ddd;
+    color:#555555;
+    padding: 4px;
+    margin-right: 8px;
+}
+.form-control{
+    border: 1px solid #ccc !important;
+    border-radius: 3px !important;
+    box-shadow: none !important;
+    height: 30px !important;
+    width: 67px;
+    cursor: pointer;
+}
+
+.lines{
+    border-bottom: 1px solid #eee;
+    border-radius: 0 !important;
+    margin-bottom: 20px;
+}
+
+.chronoExam-label{
+  width: 100px !important;
+  float: left;
+}
+
+.formstyle{
+    padding: 20px;
+}
+
+#lines{
+    border-radius: 0 !important;
+    margin-bottom: 20px;
+}
+.examTImeText{
+	text-align: right;
+	width: 36px;
+}
+
+.separator{
+	font-size:22px !important;
+}
+
+.bootstrap-datetimepicker-widget {
+  left: 110px !important;
+  top: 185px !important;
+  width: 175px !important;
+  margin: 1px 0 0 -1px !important;
+  z-index: 9999 !important;
+}
+.bootstrap-datetimepicker-widget td {
+  height: 30px !important;
+  line-height: 30px !important;
+  width: 30px !important;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.bootstrap-datetimepicker-widget td span {
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+}
+.bootstrap-datetimepicker-widget .timepicker-hour,
+.bootstrap-datetimepicker-widget .timepicker-minute,
+.bootstrap-datetimepicker-widget .timepicker-second {
+  width: 30px !important;
+  height: 30px !important;
+}
+.bootstrap-datetimepicker-widget button[data-action] {
+  padding: 0 !important;
+}
+.bootstrap-datetimepicker-widget a[data-action] {
+  width: 40px;
+  padding: 0 !important;
+}
+.bootstrap-datetimepicker-widget a[data-action]:hover{
+  background-color: #eee;
+  width: 40px !important;
+}
+.reportrange{
+  float: left;
+  width: auto;
+  min-width: 30px;
+  height: 30px;
+  cursor: pointer;
+  padding: 5px 5px 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.reportrange > span {
+  padding: 5px;
+}
+.reportrange li {
+  list-style: none;
+}
+
+.reportrange li a{
+  color:#333;
+  text-align: center;
+}
+.reportrange li a:hover{
+  background-color:#08c;
+  color: #fff;
+}
+ul.dropdown-menu-log-type{
+  margin: 12px -12px;
+  min-width: 72px;
+  max-height: 200px;
+}
+ol.groupManager{
+  padding-top: 7px;
+  margin-bottom: 0;
+  float: left;
+}
+.clearfix:before,.clearfix:after{
+  clear: both;
+}
+p[data-toggle="dropdown"]{
+  display: inline;
+  margin: 0;
+  max-width: 60px;
+}
+div.reportrange:hover{
+  background-color: #eee;
+}
+div.reportrange li ul li:hover{
+  background-color: #08c;
+}
+div[ng-show="examFrequencyMonthFlag"] ul{
+  overflow-y: scroll;
+  min-width: 55px;
+}
+div[ng-show="examFrequencyMonthFlag"] ul a{
+  padding: 0;
+}
+.form-control[readonly]{
+  background-color: #fff;
+}
+.form-control[readonly]:hover{
+  background-color: #eee;
+}
+.activeType > a {
+  background: #08c !important;
+  color:#fff !important;
+}
+.description > .dropdown-menu{
+  width: 450px;
+}
+
+.notifications-menu.description > a > i{
+  padding-top: 19px;
+}
+
+.notifications-menu.description > .dropdown-menu{
+  left: -25px;
+}
+
+.carousel-indicators{
+  border-top: 1px solid #ccc;
+
+  position: static;
+  width: 100%;
+  padding: 20px 0px;
+  margin-left: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.carousel-indicators .active{
+  background-color: #0097d8;
+  width: 10px;
+  height: 10px;
+  margin: 0px 10px;
+}
+
+.carousel-indicators li{
+  margin: 0px 10px;
+  border: 1px solid #0097d8;
+}
+
+.desc-info{
+  padding: 50px 50px 140px 50px;
+  height: 210px;
+
+}
+
+.desc-info .img{
+  float: left;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-right: 10%;
+  margin-top: 8%;
+}
+
+.desc-info .line{
+  float: left;
+  display: block;
+  width: 40px;
+  margin-top: -10px;
+  height: 220px;
+  background: url("../images/chrono/line.png") no-repeat;
+}
+
+.desc-info .text{
+  float: left;
+  width: 170px;
+}
+.desc-info .text .title{
+  font-weight: bold;
+  font-size: 18px;
+}
+.desc-info .text .desc-content{
+  font-size: 14px;
+}
+.img-normal{
+  background: url("../images/chrono/icon-normal.png");
+}
+
+.img-full{
+  background: url("../images/chrono/icon-full.png");
+}
+
+.img-emergenc{
+  background: url("../images/chrono/icon-emergenc.png");
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: inherit;
+}
+@media (max-width: 467px) {
+  .nav > li > a {
+    padding: 10px 8px !important;
+  }
+  .notifications-menu.description > .dropdown-menu {
+    left: -86px;
+  }
+  .description > .dropdown-menu {
+    width: 329px;
+  }
+  .desc-info {
+    padding: 40px 15px 140px 15px;
+  }
+  .notifications-menu.description > .dropdown-menu > li.header:before, .notifications-menu.description > .dropdown-menu > li.header:after {
+    left: 79px !important;
+  }
+}

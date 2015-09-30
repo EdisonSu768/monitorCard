@@ -1,0 +1,156 @@
+.install_body{
+    padding-top: 3%;
+    height: 100%;
+}
+
+.install_bg{
+  margin-top: 5%;
+}
+.install_bg_r{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.install_button{
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 9;
+  display: block;
+  width: 186px;
+  height: 66px;
+  background: url("../images/installClient/IE-button-default.png") no-repeat;
+}
+.install_button:hover{
+    margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 9;
+  display: block;
+  width: 186px;
+  height: 66px;
+  background: url("../images/installClient/IE-button-hover.png") no-repeat;
+}
+
+.content_download{
+  z-index: 0;
+  left: 65%;
+  top:70%;
+  display: block;
+
+}
+.download-notice{
+  font-size: 12px;
+  color: #8698a7;
+}
+
+.install_content{
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 13% 0 60px;
+
+}
+.install_footer{
+    height: 60px;
+}
+.install_footer>p{
+    text-align: center;
+    color: #8698a7;
+}
+
+.content_font{
+    padding-top: 10%;
+    padding-bottom: 15%;
+    border-bottom: 1px solid #dbe0e4;
+}
+
+.btn-rounded {
+    border-radius: 100px !important;
+    width: 192px;
+    height: 60px;
+    display: block;
+}
+
+.btn-installclient{
+    color: #13793a;
+    background-color: #55de89;
+    border-color: #44d97d;
+}
+
+.btn-installclient > a{
+    color: #13793a;
+}
+
+.btn-installclient:hover{
+    background-color: #64f19a;
+    color: #2f9c58 !important;
+}
+
+.btn-installclient > a:hover{
+    color: #2f9c58;
+}
+
+.content_button:hover{
+    background-position: -201px 0;
+}
+
+.buttondisable{
+    opacity: .45;
+    padding: 18px 25px;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    background-color: #55de89;
+    border-color: #44d97d;
+}
+.buttondisable > a{
+    color: #13793a;
+}
+
+.text_content{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 8%;
+
+}
+
+.site-footer{
+  text-align: center;
+}
+
+.container{
+  min-height: 95%;
+}
+
+.padding_left_all{
+  margin-left: 35%;
+}
+
+.left_align{
+  text-align: left;
+}
+
+@media (max-height: 767px) {
+   .container {
+    min-height: 90%;
+  }  
+}
+
+#cloudTrustLink{
+    margin-left: 2px;
+}
+
+#cloudTrustLink a{
+    color: #333;
+}
+
+#cloudTrustLink a:hover{
+    text-decoration: none;
+    color: #2a6496;
+}

@@ -1,0 +1,71 @@
+.export-btn{
+    float: right;
+    margin-bottom: 10px;
+}
+
+.groupManager{
+    margin-left: 35px;
+}
+
+a{
+    cursor:pointer;
+    text-decoration:none !important;
+}
+
+/*.table-group > .ng-table th.sortable div:after,*/
+/*.ng-table th.sortable div:before {*/
+    /*content: "";*/
+    /*border-width: 0 4px 4px;*/
+    /*border-style: solid;*/
+    /*border-color: #000 transparent;*/
+    /*visibility: visible;*/
+    /*right: 8px;*/
+    /*top: 50%;*/
+    /*position: absolute;*/
+    /*opacity: .3;*/
+    /*margin-top: -4px;*/
+    /*margin-right: 95%;*/
+/*}*/
+
+/*.table-group > .ng-table th.sortable div:before {*/
+    /*margin-top: 2px;*/
+    /*border-bottom: none;*/
+    /*border-left: 4px solid transparent;*/
+    /*border-right: 4px solid transparent;*/
+    /*border-top: 4px solid #000;*/
+    /*margin-right: 95%;*/
+/*}*/
+
+/*.table-group > .table th > div{*/
+    /*padding-left: 5%;*/
+/*}*/
+
+/*@media screen and (max-width: 1600px) {*/
+    /*.table-group > .ng-table th.sortable div:after,*/
+    /*.ng-table th.sortable div:before {*/
+        /*content: "";*/
+        /*border-width: 0 4px 4px;*/
+        /*border-style: solid;*/
+        /*border-color: #000 transparent;*/
+        /*visibility: visible;*/
+        /*right: 8px;*/
+        /*top: 50%;*/
+        /*position: absolute;*/
+        /*opacity: .3;*/
+        /*margin-top: -4px;*/
+        /*margin-right: 90%;*/
+    /*}*/
+
+    /*.table-group > .ng-table th.sortable div:before {*/
+        /*margin-top: 2px;*/
+        /*border-bottom: none;*/
+        /*border-left: 4px solid transparent;*/
+        /*border-right: 4px solid transparent;*/
+        /*border-top: 4px solid #000;*/
+        /*margin-right: 90%;*/
+    /*}*/
+
+    /*.table-group > .table th > div{*/
+        /*padding-left: 10%;*/
+    /*}*/
+/*}*/

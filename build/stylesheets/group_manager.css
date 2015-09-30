@@ -1,0 +1,105 @@
+/**/
+.button_group{
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.group_focus{
+    background-color: #f6f6f6;
+    border-left-color: #3c8dbc;
+    color: #444;
+}
+.group_select{
+
+}
+a{
+    cursor:pointer;
+    text-decoration:none !important;
+}
+.group_span{
+	display: inline-block;
+	width: 70%;
+    padding: 10px 0px;
+}
+.group_path:before{
+    content: '\f104';
+    margin-left: -12px;
+		position:absolute;
+		top:10px;
+}
+.group_manager{
+    margin-left: 10px;
+}
+.group_div{
+    height: 600px;
+    overflow-y: scroll;
+}
+.group_manager .group_a{
+    background: #f6f6f6 !important;
+    cursor:default;
+    color: #428bca !important;
+}
+.group_manager .group_a:hover{
+    background: #f6f6f6 !important;
+    cursor:default;
+    color: #428bca !important;
+}
+
+.nav.nav-pills > li > a:hover {
+    border-radius: 3px;
+}
+
+.group_left_icon{
+    margin-left: -2px;
+}
+.group_li_left{
+    margin-left: -1px;
+}
+.editable-controls > input{
+    width: 130px !important;
+    height: 30px !important;
+}
+.child_ul{
+    margin-left: 18px;
+}
+.child_ul_f{
+    margin-left: 15px !important;
+}
+.group_manager ul li a>span:hover{
+    color: #428bca;
+}
+.group_manager ul li a:hover{
+    background: none !important;
+}
+.group_icons{
+    color: #444 !important;
+    /*padding: 10px 0px;*/
+}
+.fa.pull-right{
+    color: #444;
+}
+.group_manager .nav>li>a{
+    padding: 0 !important;
+}
+.group_icons_child{
+    margin-top: 10px;
+}
+.edit_nickName_btn{
+    /*margin-left: 10% !important;*/
+}
+.edit_nickName_form{
+    width: 50%;
+    float: left;
+    margin-bottom: 0px !important;
+}
+@media screen and (max-width: 767px) {
+  .group_div {
+    height: 100%;
+    overflow-y: auto;
+  }
+}
+
+.label-checkbox{
+    margin: 8px 20px 0px 2.2%;
+    float:left;
+}

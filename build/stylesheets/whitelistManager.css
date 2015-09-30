@@ -1,0 +1,103 @@
+.whitelist-label{
+    padding-top: 0px !important;
+
+}
+
+@media screen and (max-width: 1385px) {
+    .whitelist-label{
+        padding-top: 0px !important;
+        width: 9% !important;
+    }
+}
+
+@media screen and (max-width: 1299px) {
+    .whitelist-label{
+        padding-top: 0px !important;
+        width: 12% !important;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .whitelist-label{
+        padding-top: 0px !important;
+        width: 15% !important;
+    }
+}
+
+.whitelist-input{
+    border: 1px solid #ccc;
+    height: 30px;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.operation-button{
+    margin-left: 10px;
+}
+
+.whiteforms{
+    padding: 30px;
+}
+
+.btn-same{
+    width: 80px;
+}
+
+/*.table-group > .ng-table th.sortable div:after,*/
+/*.ng-table th.sortable div:before {*/
+    /*content: "";*/
+    /*border-width: 0 4px 4px;*/
+    /*border-style: solid;*/
+    /*border-color: #000 transparent;*/
+    /*visibility: visible;*/
+    /*right: 8px;*/
+    /*top: 50%;*/
+    /*position: absolute;*/
+    /*opacity: .3;*/
+    /*margin-top: -4px;*/
+    /*margin-right: 96%;*/
+/*}*/
+
+/*.table-group > .ng-table th.sortable div:before {*/
+    /*margin-top: 2px;*/
+    /*border-bottom: none;*/
+    /*border-left: 4px solid transparent;*/
+    /*border-right: 4px solid transparent;*/
+    /*border-top: 4px solid #000;*/
+    /*margin-right: 96%;*/
+/*}*/
+
+/*.table-group > .table th > div{*/
+    /*padding-left: 3%;*/
+/*}*/
+
+/*@media screen and (max-width: 1600px) {*/
+    /*.table-group > .ng-table th.sortable div:after,*/
+    /*.ng-table th.sortable div:before {*/
+        /*content: "";*/
+        /*border-width: 0 4px 4px;*/
+        /*border-style: solid;*/
+        /*border-color: #000 transparent;*/
+        /*visibility: visible;*/
+        /*right: 8px;*/
+        /*top: 50%;*/
+        /*position: absolute;*/
+        /*opacity: .3;*/
+        /*margin-top: -4px;*/
+        /*margin-right: 96%;*/
+    /*}*/
+
+    /*.table-group > .ng-table th.sortable div:before {*/
+        /*margin-top: 2px;*/
+        /*border-bottom: none;*/
+        /*border-left: 4px solid transparent;*/
+        /*border-right: 4px solid transparent;*/
+        /*border-top: 4px solid #000;*/
+        /*margin-right: 96%;*/
+    /*}*/
+
+    /*.table-group > .table th > div{*/
+        /*padding-left: 3%;*/
+    /*}*/
+/*}*/

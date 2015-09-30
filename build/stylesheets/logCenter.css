@@ -1,0 +1,263 @@
+.form-control-log{
+    border-bottom-right-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+    width: 200px !important;
+}
+
+
+.box-log{
+    background-color: white;
+    border-radius: 4px;
+}
+
+.form-input{
+    margin-left: 5px;
+}
+
+.box-logbg{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.box-log-title{
+    font-size: 13px;
+    padding: 10px 10px 0px 10px;
+    float: left;
+    font-weight: 400;
+}
+
+
+.groupManager{
+    background-color: white;
+    padding: inherit;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.groupManager > li+li:before{
+    content: '>\00a0';
+}
+
+a{
+    cursor:pointer;
+    text-decoration:none !important;
+}
+.i_cursor{
+    cursor:pointer;
+}
+.tools i{
+    color: #a7a7a7;
+    margin-left: 10px;
+}
+
+.panel-line{
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 0;
+}
+.modal-dialog{
+    width: 700px !important;
+}
+dt {
+    width: 70px !important;
+}
+dd {
+    margin-left: 80px !important;
+}
+
+.dataTable_wrapper{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.dataTable_toggle_button{
+    padding: 9px;
+    margin-left: 10px;
+}
+
+.btn-group>.btn:first-child {
+	margin-left: 8;
+}
+
+#deleteshadow{
+    box-shadow: none;
+}
+
+#deletepadding{
+    padding-top: 0px;
+}
+.reportrange{
+  background: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.reportrange > span {
+  padding: 5px;
+}
+.reportrange li {
+  list-style: none;
+}
+
+.reportrange li a{
+  color:#333;
+  text-decoration: none;
+}
+.calendar{
+  max-width: 340px !important;
+}
+.formdaterangepicker{
+  margin-left: 18px;
+
+}
+
+.log_i_client{
+  background: url("../images/oneClient.png");
+  background-size: 15px 15px;
+  width: 15px;
+  height: 15px;
+}
+.showType{
+  float: left;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 7px;
+  cursor: pointer;
+  background: #eeeeee;
+  border: 1px solid #d1d1d1;
+}
+
+.log_i_status{
+  background: url("../images/status.png");
+  background-size: 15px 15px;
+  width: 15px;
+  height: 15px;
+}
+.showActive{
+  background: #009fe4 !important;
+  border: none !important;
+}
+.showActive > .log_i_status{
+  background: url("../images/statusActive.png");
+  background-size: 15px 15px;
+}
+.showActive > .log_i_client{
+  background: url("../images/clientActive.png");
+  background-size: 15px 15px;
+}
+.pull-margin-left{
+  margin-left: 10px;
+  padding-top: 10px;
+}
+div[content='按安全状态查看']{
+  width: 122px;
+  left: -60 !important;
+}
+div[content='按安全状态查看'] > .arrow{
+  left: 85% !important;
+}
+
+div[content='按终端查看']{
+  width: 95px;
+}
+.trash-hover:hover{
+  color: #009fe4 !important;
+}
+
+.historySearchMenu{
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
+  float: left;
+  min-width: 300px;
+  padding: 5px 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.historySearchMenu li {
+  padding: 8px 10px;
+}
+
+.historySearchMenu li a{
+  text-decoration: none;
+}
+.historySearchMenu li div{
+  width: 90%;
+}
+.historySearchMenu li div:hover{
+  color:#009fe4;
+  cursor: pointer;
+}
+.historySearchMenu li i{
+  margin-top: -18px;
+  cursor: pointer;
+}
+
+.historySearchMenu li:hover >a {
+  color:#fff
+}
+
+.input-group > input{
+  width: 300px !important;
+  border-radius: 0px 3px 3px 0px!important;
+}
+
+.search_div{
+  padding: 4px 10px !important;
+  border-radius: 3px 0px 0px 3px!important;
+}
+
+.input-group-addon, .form-control{
+  border-color: #ddd;
+}
+
+.clientTitle{
+  border-radius: 3px;
+  border: 1px solid #dfe5e8;
+  background: #eceff1;
+  padding: 0 10px 1px 5px;
+  margin-left: 5px;
+}
+
+.clientTitle > span{
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.clientTitle > img{
+  margin-bottom: 1px;
+}
+
+.statusTitle{
+  font-size: 14px !important;
+  color: #666;
+  font-weight: normal;
+}
+
+.dialog-header-notify {
+  padding: 15px;
+}
+@media (max-width: 467px) {
+  .box-logbg form{
+    display: inline-block;
+  }
+  .nav>li>a{
+    padding: 10px 14px !important;
+  }
+}
+
+#hipsClientName{
+  max-width: 95%;
+}

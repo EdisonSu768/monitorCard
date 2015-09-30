@@ -1,0 +1,30 @@
+.pluginUploadRadio{
+    margin-left: 20px !important;
+}
+
+.uploadFile{
+    border: 1px solid #ccc;
+    height: 30px;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+.pluginUploadRadioDiv{
+    padding-top: 6px;
+}
+.historyDiv{
+    text-align: left !important;
+    border-top: 1px solid #e5e5e5;
+    padding: 10px;
+}
+.historyList{
+    font-size: 15px !important;
+    line-height: 20px;
+}
+a{
+    cursor:pointer;
+    text-decoration:none !important;
+}
