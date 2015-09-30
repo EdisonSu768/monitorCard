@@ -12,3 +12,10 @@ bower install monitorcard
 
 
 ## Usage
+You will find four directories of resources under folder `build`
+ * thirdpartlib
+ * fonts
+ * images
+ * stylesheets
+
+You can use them trivially.
