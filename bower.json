@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "homepage": "https://github.com/PhoenixGrey/monitorCard",
   "description": "card based style ui lib for monitor pages",
-  "main": "mccore.min.css",
+  "main": "build",
   "keywords": [
     "card",
     "monitor"
@@ -13,7 +13,10 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
+    "src",
+    "demo",
+    "package.json",
+    "Gruntfile.coffee",
     "node_modules",
     "bower_components",
     "test",
