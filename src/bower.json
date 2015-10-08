@@ -1,6 +1,6 @@
 {
   "name": "mc_demo",
-    "ignore": [
+  "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",

@@ -16,7 +16,7 @@ module.exports = (grunt)->
       installBowerPackages:
         command: 'cd src; ../node_modules/bower/bin/bower install'
       rename:
-        command: 'cd src; mv bower_components thirdpartlib'
+        command: 'cd src; rm -rf thirdpartlib; mv bower_components thirdpartlib'
       unpublish:
         command: 'git tag -d 0.0.1; git push origin :refs/tags/0.0.1'
       publish:
