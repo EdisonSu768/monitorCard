@@ -298,6 +298,57 @@ input[type='file']{
   opacity: 0.65;
   padding-left: 10px;
 }
+.software-title .fa-cog{
+  font-size: 20px;
+  color: #b2babe;
+}
+.software-title-hover{
+  cursor: pointer;
+  color: #66757e;
+}
+.software-title > .dropdown{
+  top: 15px;
+  position: absolute;
+  right: 20px;
+}
+.software-title .dropdown-menu{
+  right: -20px;
+  left: auto;
+  margin-top: 13px;
+  width: 265px;
+  height: 194px;
+}
+.table-info > span{
+  font-size: 12px;
+  color: #666;
+}
+.fa-check-square{
+  color: #33cc66;
+}
+.software-title li.header > div{
+  display: inline-block;
+  text-align: center;
+  width: 230px;
+  color: #666;
+}
+.software-title li.header{
+  margin: 0 10px 10px 10px;
+  border-bottom: 1px solid #d9dfe4;
+  padding: 10px 0;
+}
+.table-info{
+  padding: 10px;
+}
+.table-info:hover {
+  background-color: #ebebeb !important;
+  cursor: pointer;
+}
+.soft-second-title{
+  color: #333;
+}
+.soft-second-title > span{
+  margin-right: 10px;
+}
 .software-title > b{
   margin-bottom: 30px;
   font-size: 20px;
@@ -328,12 +379,12 @@ input[type='file']{
   overflow: hidden;
 }
 @media (max-width: 1465px) and (min-width: 767px){
-  .software-title{
-    height: 69px;
-  }
   .software-title > span{
     display: block;
     padding-left: 0;
+  }
+  .software-title .dropdown-menu {
+    margin-top: 33px;
   }
 }
 @media (max-width: 1465px) and (min-width: 1400px){
@@ -365,19 +416,36 @@ input[type='file']{
   .row > .col-md-4{
     padding: 5px;
   }
+  .software-info {
+    margin-bottom: 5px;
+  }
 }
 @media (max-width: 1120px) {
   .software-title{
     padding: 9px;
+  }
+  .software-title > .dropdown{
+    right: 10px;
+  }
+  .software-title .dropdown-menu {
+    right: -10px;
   }
 }
 @media (max-width: 767px) and (min-width: 550px){
   .software-info > .col-md-4, .software-morelink > .col-md-4, .software-button > .col-md-4{
     max-width: 140px;
   }
+  .software-title .dropdown-menu {
+    right: -10px;
+    margin-top: 11px;
+  }
 }
 @media (max-width: 550px){
   .software-info > .col-md-4, .software-morelink > .col-md-4, .software-button > .col-md-4{
     width: 105px;
+  }
+  .software-title .dropdown-menu {
+    right: -10px;
+    margin-top: 11px;
   }
 }
